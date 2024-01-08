@@ -50,7 +50,6 @@ module.exports.createOptions = async (req, res) => {
 
     const option = await Option.create({
       text,
-      question,
     });
 
     // create link_to_vote using _id of option
